@@ -5,13 +5,13 @@ using namespace std;
 int main()
 {
     Account a1;
-    a1.Deposit(100);
+    a1.Deposit(5000);
     cout << "After depositing $ 100 " << "balance is " << a1.GetBalance() <<'\n';
     for(auto s : a1.Report())
     {
         cout << s <<'\n';
     }
-    a1.Withdraw(50);
+    a1.Withdraw(1000);
     if(a1.Withdraw(10))
     {
         cout<< "second withdraw succeeds " <<'\n';
