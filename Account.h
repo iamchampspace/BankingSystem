@@ -2,7 +2,7 @@
 #include <string>
 #include "Transaction.h"
 using namespace std;
-
+int count = 0;
 
 class Account
 {
